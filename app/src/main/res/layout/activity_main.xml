@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!--텍스트뷰의 글씨나 속성을 변경하는 등의 제어를 하려면 .java에서 이 텍스트뷰를 참조해야함-->
+    <!--참조하려면 반드시 View들은 id속성을 가지고 있어야함.- View를 구별하는 식별자 -->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <!--버튼에 text속성으로 글씨를 지정하면 자동으로 대문자로 보여짐-->
+    <!--textAllCaps속성으로 대문자로 할지 여부 지정 [true/false]-->
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAllCaps="false"/>
+    <!-- 먼저 작성하고 버튼클릭시에 텍스트뷰의 글씨 변경 연습. MainActivity.java에서 코드작성-->
+    <!-- 연습 완료 후 사용자로 부터 글씨를 입력받을 수 있는 EditText 뷰를 추가-->
+
+    <!-- 사용자로부터 글씨를 입력받을 수 있는 뷰-->
+    <!-- hint : 글씨를 입력하기 전에 회색으로 보여지는 힌트글씨 지정 - 글씨를 입력하면 자동으로 안보임 -->
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input text"
+        android:textSize="20sp"/>
+
+</LinearLayout>
