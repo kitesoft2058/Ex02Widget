@@ -13,4 +13,5 @@ Button 클릭 이벤트를 통해 TextView의 글씨변경 및 EditText를 통�
   <img src="device-2019-05-27-155052.png" width="20%"/>
   <img src="device-2019-05-27-155205.png" width="20%"/>
   <img src="device-2019-05-27-155216.png" width="20%"/>
+  <img src="GIF.gif" width="20%"/>
 </div>
