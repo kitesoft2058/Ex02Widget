@@ -10,7 +10,7 @@ Button 클릭 이벤트를 통해 TextView의 글씨변경 및 EditText를 통�
 
 # 실행모습
 <div>
-  <div style="width:20%; text-align:center; display:inline-block;">  
+  <div style="width:100; text-align:center; display:inline-block;">  
     <img src="device-2019-05-27-155052.png" width="100%"/>
     <p>첫 화면</p>
   </div>
